@@ -1,0 +1,506 @@
+/*************************************TAG SELECTORS*********************************************/
+body{
+	background: white;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin: 20px;
+	margin-top: 27px;
+	text-decoration: none;
+}
+
+li{
+
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: Lucida Sans;
+	font-weight: bold;
+}
+
+/*************************************CLASS-SELECTORS*******************************************/
+
+.nav-container{
+	width: 100%;
+	height: 100px;
+	position: fixed; 
+	display: flex;
+	background-color: white;
+}
+
+.left-nav{
+	height: 80px;
+	width: 30%;
+	background-color: white;
+	position: relative;
+}
+
+.left-nav ul{
+	position: relative;
+	margin-left: 20px;
+}
+
+.right-nav{
+	height: 80px;
+	width: 50%;
+	background-color: white; 
+	position: relative;
+}
+
+.right-nav ul{
+	margin-left: 90px;
+	position: relative;
+}
+
+
+a:hover{
+	color: #009dff;
+}
+
+.kiss-flow-logo{
+	height: 80px;
+	width: 20%;
+	background-color: white; 
+}
+
+.kiss-flow-logo img{
+	height: 70px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+.btn {
+  background: #3452d9;
+  background-image: -webkit-linear-gradient(top, #3452d9, #4268ff);
+  background-image: -moz-linear-gradient(top, #3452d9, #4268ff);
+  background-image: -ms-linear-gradient(top, #3452d9, #4268ff);
+  background-image: -o-linear-gradient(top, #3452d9, #4268ff);
+  background-image: linear-gradient(to bottom, #3452d9, #4268ff);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 15px 6px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #009dff;
+  text-decoration: none;
+}
+
+/*hero-container*/
+
+.hero-container{
+	display: flex;	
+	width: 100%;
+	height: 750px;
+	background-color: white;
+	justify-content: center;
+
+}
+.hero-text{
+	width: 45%;
+	height: 700px;
+	text-align: center;
+	background-color: white; 
+	margin: 20px;
+	font-weight: normal;
+}
+
+.low-code{
+	font-size: 40px;
+	font-family: Graphik Web Regular, sans-serif!important;
+	margin-top: 100px;
+	font-weight: thin;
+}
+.work-platform{
+	font-size: 75px;
+	font-family: Graphik Web SemiBold,sans-serif!important;
+
+}
+
+/*********************************************************************hero text color gradinet********************************************************************************/
+
+.work-platform{
+  	background: -webkit-linear-gradient(rgb(0, 0, 255), rgb(238, 129, 238));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/********************************************************************hero text color gradinet******************************************************/
+
+.work-platform{
+	color: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.under-line-img{
+	width: 240px;
+	height: 15px;
+}
+.power-of-simple{
+	font-size: 42px;
+	font-family: Graphik Web SemiBold,sans-serif!important;
+	margin-top: 20px;
+}
+.power-of-simple span{
+	color: #FB2576;
+}
+
+/*hero - buttons*/
+
+.hero-buttons{
+	justify-content: center;
+	display: flex;
+	margin-top: 40px;
+	background-color: white;
+	height: 80px;
+}
+
+.btn1{
+	background-color: white;
+	color: #2F58CD;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-right: 20px;
+	border: 1px soildblue;
+	border-radius: 5px 5px;
+	width: 215px;
+	height: 45px;
+}
+
+.btn2{
+	background-color: #2F58CD;
+	color: white;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-left: 20px;
+	border: 2px;
+	border-radius: 5px 5px;
+	width: 215px;
+	height: 45px;
+}
+
+.hero-video{
+	width: 45%;
+	height: 700px;
+	text-align: center;
+	background-color: white; 
+	margin: 20px;
+}
+
+/*Hero - video*/
+.hero-video video{
+	margin-top: 50px;
+
+}
+
+.company{
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+
+.companies-name{
+	height: 40px;
+	width: 100%; 
+	background-color: #E9E8E8;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 50px;
+	font-family: sans-serif;
+	font-weight: thin;
+	color: #BDCDD6; 
+}
+
+.companies-name span{
+	color: black;
+	font-weight: bold;
+}
+.companies-logo{
+
+	background-color: #E9E8E8;
+	width: 100%; 
+	height: 80px;
+}
+
+.logo-inline{
+	width: 130px;
+	height: 45px;
+	display: inline;
+	text-align: center;
+	margin-left: 300px;
+	margin: 0 200 0 200;
+}
+.saint{
+	width: 130px;
+	height: 50px;
+
+}
+
+.eleven {
+	width: 130px;
+	height: 43px;
+}
+
+/*spectrum*/
+
+.spectrum{
+	font-family: sans-serif;
+	margin-left: 80px;
+	width: 90%;
+	height: 530px;
+	background-color: white;
+	display: flex;
+}
+.sp1{
+	line-height: 1.5;
+	width: 50%;
+	height: 400px;
+	background-color: white;
+	padding-top: 80px;
+	padding-left: 100px;
+
+}
+.sp1 h3{
+	font-size: 32px;	
+}
+
+.sp1 p{
+	font-size: 23px;
+	padding: 6px;
+}
+
+.sp2{
+
+	background-color: white;
+}
+
+.sp2 img{
+	width: 760px;
+	height: 505px;
+}
+.sp1 button{
+	width: 120px;
+	height: 50px;
+	background-color: #009dff;
+	border-radius: 3px;
+}
+
+.ex{
+	font-size: 18px;
+	color: white;
+}
+
+/*Reimagine-workplatform*/
+
+.reimagine-3{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	justify-content: center;
+}
+.reimagine-description{
+	padding-top: 100px;
+	font-size: 48px;
+	text-align: center;
+	width: 100%;
+	height: 80px;
+	background-color: white; 
+	font-family: sans-serif;
+}
+.reimagine-labels{
+	padding: auto 20px auto 20px;
+	width: 100%;
+	height: 80px;
+	background-color: white; 
+	text-align: center;
+	padding-top: 30px;
+
+}
+.labels{
+	width: 100%;
+	height: 60px;
+	border: 5px darkgray;
+	background-color: white; 
+}
+
+.labels button{
+	font-size: 20px;
+	font-family: Tahoma;
+	margin: auto 15px auto 15px;
+	width: 140px;
+	height: 50px;
+	border: 5px solid-gray;
+	border-radius: 25px 25px;
+	background-color: ghostwhite;
+}
+
+.digital-transformation4{
+	display: flex;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	margin-top: 0px;
+	justify-content: center;
+}
+.advantage10x{
+	font-weight: bold;
+	font-family: Microsoft Sans Serif;
+	width: 50%;
+	height: 350px;
+	background-color: white;
+
+}
+.advantage10x h3{
+	font-size: 48px;
+}
+
+.advantage10x span{
+	color: #9A1663;
+}
+.advantage10x p{
+	font-size: 20px;
+	color: #B2B2B2;
+}
+
+.img-10x{
+	width: 30%;
+	height: 350px;
+	background-color: ghostwhite;
+}
+.girl-speaker{
+	
+	width: 400px;
+	height: 400px;
+}
+
+.main{
+	border: 1px solid whitesmoke;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	border-radius: 5px 20px;
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+
+.cont{
+	display: flex;
+	border: 2px solid black;
+	width: 33.3%;
+	height: 160px;
+	background-color: red;
+	border-radius: 5px 20px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+
+/* .main row-1{
+
+}
+
+.main- row-2{
+
+} */
+
+.row-1{
+	display: flex;
+}
+.row-2{
+	display: flex;
+}
+
+.icon{
+	display: flex;
+	float: left;
+	margin-left: 50px;
+	line-height: 4.5;
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 20px;
+}
+.para{
+	display: flex;
+	float: right;
+	margin-right: 50px;
+	line-height: 1;
+	margin-top: 40px;
+	text-align: left;
+}
+/* 
+<!-------footer----------> */
+
+.footer{
+	width: 100%;
+	height: 490px;
+	background-color: whitesmoke;
+	align-items: center;
+	justify-content: center;
+	
+	display: flex;
+	position: relative;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer_image{
+	width: 250px;
+	height: 380px;
+	background-color: whitesmoke;
+	margin-left: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+
+}
+
+.footer_table{
+	width: 1640px;
+	height: 380px;
+	display: flex;
+	background-color: whitesmoke;
+	margin-left: 10px;
+	line-height: 0.03;
+	align-items: center;
+
+}
+
+.f_one{
+	width: 190px;
+	height: 420px;
+	background-color: smokewhite;
+	margin-left: 90px;
+	align-items: center;
+	margin-top: 20px;
+	
+}
+
+.f_icon{
+	font-size: 20px;
+	display: flex;
+	display:inline;
+	letter-spacing: 18px;
+	margin-left: 10px;
+}
+
+
+/*************************************ID-SELECTORS*********************************************/
